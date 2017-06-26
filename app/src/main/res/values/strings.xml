@@ -1,4 +1,10 @@
 <resources>
     <string name="app_name">Jogo da Velha</string>
 
+    <string name="the_winner_was_the_o">O ganhador foi o \"0\"</string>
+    <string name="the_winner_was_the_x">O ganhador foi o \"X\"</string>
+    <string name="game_tied">Jogo da Velha</string>
+
+    <string name="exit">Sair</string>
+    <string name="play_again">Jogar novamente</string>
 </resources>

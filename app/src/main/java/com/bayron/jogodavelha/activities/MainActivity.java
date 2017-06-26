@@ -4,9 +4,8 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 
-import com.bayron.jogodavelha.R;
 import com.bayron.jogodavelha.interfaces.OnGameAction;
-import com.bayron.jogodavelha.widgets.BlackboardView;
+import com.bayron.jogodavelha.widgets.BoardView;
 import com.crashlytics.android.Crashlytics;
 import io.fabric.sdk.android.Fabric;
 
@@ -17,7 +16,10 @@ public class MainActivity extends AppCompatActivity implements OnGameAction {
         super.onCreate(savedInstanceState);
         Fabric.with(this, new Crashlytics());
 
-        setContentView(new BlackboardView(this, this));
+        BoardView boardView = new BoardView(this);
+        boardView.setOnGameAction(this);
+
+        setContentView(boardView);
 
         // Remove a splash screen and set default app background
         getWindow().setBackgroundDrawableResource(android.R.color.white);
