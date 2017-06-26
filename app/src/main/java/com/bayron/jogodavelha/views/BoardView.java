@@ -1,4 +1,4 @@
-package com.bayron.jogodavelha.widgets;
+package com.bayron.jogodavelha.views;
 
 import android.app.AlertDialog;
 import android.content.Context;

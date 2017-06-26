@@ -5,7 +5,7 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 
 import com.bayron.jogodavelha.interfaces.OnGameAction;
-import com.bayron.jogodavelha.widgets.BoardView;
+import com.bayron.jogodavelha.views.BoardView;
 import com.crashlytics.android.Crashlytics;
 import io.fabric.sdk.android.Fabric;
 
