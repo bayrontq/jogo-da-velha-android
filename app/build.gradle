@@ -29,7 +29,7 @@ android {
 
     signingConfigs {
         release {
-            storeFile file('xxxxxxxxx')
+            storeFile file("keystore.keystore")
             storePassword "xxxxxxxxx"
             keyAlias "xxxxxxxxx"
             keyPassword "xxxxxxxxx"
