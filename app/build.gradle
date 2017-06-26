@@ -29,10 +29,10 @@ android {
 
     signingConfigs {
         release {
-            storeFile file("keystore.keystore")
-            storePassword "xxxxxxxxx"
-            keyAlias "xxxxxxxxx"
-            keyPassword "xxxxxxxxx"
+            storeFile file("jogo_da_velha.jks")
+            storePassword "jogod@veia17"
+            keyAlias "release"
+            keyPassword "jogod@veia17"
         }
     }
 
