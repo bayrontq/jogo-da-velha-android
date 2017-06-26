@@ -29,10 +29,10 @@ android {
 
     signingConfigs {
         release {
-            storeFile file('AndroidCorretorvip')
-            storePassword "crvandroid123321"
-            keyAlias "corretorvip"
-            keyPassword "crvandroid123321"
+            storeFile file('xxxxxxxxx')
+            storePassword "xxxxxxxxx"
+            keyAlias "xxxxxxxxx"
+            keyPassword "xxxxxxxxx"
         }
     }
 
